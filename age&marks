@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std ;
+  int main (){
+unsigned int age;
+double marks ;
+double PRODUCTboth ;
+PRODUCTboth=0 ;
+cout << "Input your age" << endl ; 
+cin >> age ;
+cout << "Input your examscore "<< endl ;
+cin >> marks ;
+cout << "You are \t"  << age << "\t years old"<< endl ;
+cout<< "You had \t" << marks << "\t out of 100 as your examscore " << endl ;
+PRODUCTboth= age * marks ;
+cout <<"The product of your examscore and your age is\t" << PRODUCTboth ;
+    return 0 ;
+  }
